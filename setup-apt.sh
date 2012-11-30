@@ -2,7 +2,7 @@
 set -e
 
 # Note: this MUST be an HTTPS URL to ensure that the correct configuration is installed
-BASEURL=https://github.com/quick2wire/quick2wire-software-users/blob/master/
+BASEURL=https://raw.github.com/quick2wire/quick2wire-software-users/master
 
 # Ensure GPG is initialised for the current user.  If it is not, apt-key fails!
 gpg --list-keys > /dev/null
