@@ -5,7 +5,7 @@ set -e
 gpg --list-keys > /dev/null
 
 sudo mkdir -p /etc/apt/sources.list.d/
-sudo cat > /etc/apt/sources.list.d/quick2wire.list  <<EOF
+(sudo cat > /etc/apt/sources.list.d/quick2wire.list) <<EOF
 # Quick2Wire Software
 deb http://dist.quick2wire.com/raspbian wheezy main 
 deb-src http://dist.quick2wire.com/raspbian wheezy main
