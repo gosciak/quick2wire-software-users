@@ -1,0 +1,3 @@
+# Quick2Wire Software
+deb http://dist.quick2wire.com/raspbian wheezy main 
+deb-src http://dist.quick2wire.com/raspbian wheezy main
